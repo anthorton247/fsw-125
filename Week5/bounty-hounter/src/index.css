@@ -1,0 +1,92 @@
+body {
+    background-color: #DECBB6;
+}
+.bounty {
+    grid-column: span 4;
+    border: black 3px solid;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: 25px;
+}
+
+.bountyContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+  
+}
+
+.header {
+    grid-column: span 4;
+    justify-self: center;
+    font-size: 100px;
+    text-shadow: darkred 5px 5px;
+}
+
+.delete {
+    background-color: darkred;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.edit {
+    background-color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.decoration {
+    font-size: 40px;
+    text-shadow: darkred 2px 2px;
+    text-decoration: darkred underline;
+}
+
+.money {
+    color: green;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.jedi {
+    color: blue
+}
+
+.sith {
+    color: red
+}
+
+.other {
+    color: black
+}
+
+.addBounty {
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px; 
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+div.addBounty > form.input > button {
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    width: 200px;
+    background-color: darkred;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+input[type="text"] {
+    width: 90%;
+    height: 30px;
+    box-sizing: border-box;
+    border: 2px solid darkred;
+    border-radius: 3px;
+    
+}
